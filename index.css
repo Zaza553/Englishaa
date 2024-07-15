@@ -1,0 +1,234 @@
+body{
+    font-family: "Nunito", sans-serif;
+    background-color: #ccc;
+}
+.img{
+    background-image: url("img.jpg");
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 570px;
+    height: 600px;
+}
+.row-1{
+    display: flex;
+}
+.bread{
+    width: 194px;
+    height: 154px;
+    position: relative;
+    top: 29px;
+    left: 28px;
+    margin-left: 8px;
+}
+.bread::before{
+    content: "Bread";
+    background-color: #fff;
+    padding: 12px 18px;
+    font-size: 22x;
+    font-weight: 600;
+    border-radius: 6px;
+    margin-left: 44px;
+    position: relative;
+    top: -8px;
+    display: none;
+}
+.bread:hover::before{
+    display: inline;
+}
+.milk{
+    width: 144px;
+    height: 154px;
+    position: relative;
+    top: 29px;
+    left: 28px;
+    margin-left: 8px
+}
+.milk::before{
+    content: "Milk";
+    background-color: #fff;
+    padding: 12px 18px;
+    font-size: 22x;
+    font-weight: 600;
+    border-radius: 6px;
+    margin-left: 24px;
+    position: relative;
+    top: -8px;
+    display: none;
+}
+.milk:hover:before{
+    display: inline;
+}
+.orange-jam{
+    margin-top: 60px;
+    width: 144px;
+    height: 94px;
+    position: relative;
+    top: 29px;
+    left: 28px;
+    margin-left: 8px;
+}
+.orange-jam::before{
+    content: "Orange Jam";
+    background-color: #fff;
+    padding: 12px 14px;
+    font-size: 22x;
+    font-weight: 600;
+    border-radius: 6px;
+    margin-left: 18px;
+    position: relative;
+    top: -12px;
+    display: none;
+}
+.orange-jam:hover:before{
+    display: inline;
+}
+.row-2{
+    display: flex;
+}
+.coffee{
+    margin-top: 60px;
+    width: 174px;
+    height: 154px;
+    position: relative;
+    top: 8px;
+    left: 28px;
+    margin-left: 8px;
+}
+.coffee::before{
+    content: "Coffee";
+    background-color: #fff;
+    padding: 12px 14px;
+    font-size: 22x;
+    font-weight: 600;
+    border-radius: 6px;
+    position: relative;
+    top: -8px;
+    left: 32px;
+    display: none;
+}
+.coffee:hover:before{
+    display: inline;
+}
+.apple-pie{
+    margin-top: 60px;
+    width: 194px;
+    height: 144px;
+    position: relative;
+    top: 18px;
+    left: 28px;
+    margin-left: 8px;
+}
+.apple-pie::before{
+    content: "Apple Pie";
+    background-color: #fff;
+    padding: 12px 14px;
+    font-size: 22x;
+    font-weight: 600;
+    border-radius: 6px;
+    position: relative;
+    top: -8px;
+    left: 32px;
+    display: none;
+}
+.apple-pie:hover:before{
+    display: inline;
+}
+.orange-juice{
+    margin-top: 60px;
+    width: 118px;
+    height: 124px;
+    position: relative;
+    top: 36px;
+    left: 28px;
+    margin-left: 4px;
+}
+.orange-juice::before{
+    content: "Orange Juice";
+    background-color: #fff;
+    padding: 12px 8px;
+    font-size: 22x;
+    font-weight: 600;
+    border-radius: 6px;
+    position: relative;
+    top: -8px;
+    display: none;
+}
+.orange-juice:hover:before{
+    display: inline;
+}
+.row-3{
+    display: flex;
+}
+.pear-juice{
+    margin-top: 60px;
+    width: 112px;
+    height: 104px;
+    position: relative;
+    top: 32px;
+    left: 24px;
+    margin-left: 8px;
+}
+.pear-juice::before{
+    content: "Pear Juice";
+    background-color: #fff;
+    padding: 12px 14px;
+    font-size: 22x;
+    font-weight: 600;
+    border-radius: 6px;
+    position: relative;
+    top: -18px;
+    display: none;
+}
+.pear-juice:hover:before{
+    display: inline;
+}
+.apple-juice{
+    margin-top: 60px;
+    width: 149px;
+    height: 124px;
+    position: relative;
+    top: 12px;
+    left: 22px;
+    margin-left: 8px;
+}
+.apple-juice::before{
+    content: "Apple Juice";
+    background-color: #fff;
+    padding: 12px 14px;
+    font-size: 22x;
+    font-weight: 600;
+    border-radius: 6px;
+    position: relative;
+    top: -14px;
+    left: 4px;
+    display: none;
+}
+.apple-juice:hover::before{
+    display: inline;
+}
+.cheese{
+    margin-top: 60px;
+    width: 222px;
+    height: 142px;
+    position: relative;
+    bottom: 4px;
+    left: 28px;
+    margin-left: 4px;
+ 
+}
+.cheese::before{
+    content: "Cheese";
+    background-color: #fff;
+    padding: 12px 14px;
+    font-size: 22x;
+    font-weight: 600;
+    border-radius: 6px;
+    position: relative;
+    top: -12px;
+    left: 32px;
+    display: none;
+    transition: 0.5s;
+}
+.cheese:hover::before {
+    display: inline;
+}
